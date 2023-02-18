@@ -1,0 +1,27 @@
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: absolute;
+  z-index: 2;
+}
+.container {
+}
+.header-nav {
+  display: flex;
+  gap: 370px;
+}
+.header-logo {
+  font-size: 17px;
+  line-height: 20px;
+}
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+.header-nav-item {
+}
+.header-nav-link {
+  font-size: 17px;
+  line-height: 20px;
+  color: #222222;
+}
