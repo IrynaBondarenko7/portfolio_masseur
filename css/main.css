@@ -47,11 +47,13 @@ body {
   padding-bottom: 40px;
   position: absolute;
   z-index: 2;
+  width: 100%;
 }
 
 .header-nav {
   display: flex;
-  gap: 370px;
+  gap: 300px;
+  align-items: center;
 }
 
 .header-logo {
@@ -61,33 +63,40 @@ body {
 
 .header-nav-list {
   display: flex;
-  gap: 40px;
+  gap: 45px;
 }
 
 .header-nav-link {
   font-size: 17px;
-  line-height: 20px;
+  line-height: 1.17;
+  font-weight: 700;
   color: #222222;
 }
 
+.header-nav-right {
+  color: #ffffff;
+}
+
 .hero {
-  background-color: #f6ddcc;
+  background-color: #fbeee6;
 }
 
 .hero-content-wrap {
   display: flex;
   position: relative;
   z-index: 1;
+  background-image: url(../images/woman.png);
+  background-repeat: no-repeat;
+  background-position: 20px 200px;
 }
 
 .hero-title {
   font-family: "Shantell Sans", cursive;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 90px;
   line-height: 126px;
-  padding-top: 100px;
-  padding-left: 140px;
-  padding-right: 50px;
+  padding-top: 250px;
+  padding-left: 10px;
 }
 
 .title-text {
@@ -100,4 +109,5 @@ body {
   line-height: 182px;
   text-align: right;
   color: #ffffff;
+  top: 335px;
 }/*# sourceMappingURL=main.css.map */
